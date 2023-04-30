@@ -1,12 +1,36 @@
-.listingContainer {
+.listing {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 60px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 30px;
+}
+#listingContainer__buttonContainer{
+  margin-bottom: 20px;
+}
+#listingContainer__buttonContainer--button{
+  padding: 12px 25px;
+  background-color: rgb(252, 252, 252);
+  border: 1px solid gray;
+  border-radius: 5px;
+  color: rgb(21, 22, 23);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: small;
+}
+#listingContainer__buttonContainer--button:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(232, 240, 240);
+  transition: all 0.3s ease;
 }
 @media screen and (max-width: 1000px) {
   .listingContainer {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .listingContainer {
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
   }
 }
 @media screen and (max-width: 460px) {

@@ -58,23 +58,23 @@ const NavBar = () => {
         <div className="dropdownContainer">
           <ul>
             <li>
-              <a href="#" className="dropdownContainer--links">
-                Home
+              <a href="#" className="navbar__menu--links">
+                How to Buy
               </a>
             </li>
             <li>
-              <a href="#" className="dropdownContainer--links">
-                Stays
+              <a href="#" className="navbar__menu--links">
+                Sell your Car
               </a>
             </li>
             <li>
-              <a href="#" className="dropdownContainer--links">
-                Flights
+              <a href="#" className="navbar__menu--links">
+                Find a Car
               </a>
             </li>
             <li>
-              <a href="#" className="dropdownContainer--links">
-                Car rentals
+              <a href="#" className="navbar__menu--links">
+                Services & Information
               </a>
             </li>
           </ul>
