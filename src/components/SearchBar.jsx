@@ -8,7 +8,7 @@ const SearchBar = () => {
       <input
         id="searchBarContainer--input"
         type="text"
-        placeholder="Search your favorite places, hotels here"
+        placeholder="Search your favorite cars here"
       />
       <button className="searchBarContainer--button">
         <AiOutlineSearch id="searchBarContainer--button--searchLogo" />

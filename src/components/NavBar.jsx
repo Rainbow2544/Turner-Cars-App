@@ -15,7 +15,7 @@ const NavBar = () => {
           <img
             id="navbar__logoContainer--logoImg"
             alt="navbar__logo"
-            src="http://www.pngimagesfree.com/LOGO/M/Makemytrip/Make-My-Trip-Logo-PNG.png"
+            src="https://www.turners.co.nz/contentassets/3e15c8546917474ca0a150b18e9fd64e/turnerscars_logo_1line_horz_true-rgb-desktop.png"
           />
         </a>
       </div>
@@ -23,22 +23,22 @@ const NavBar = () => {
         <ul>
           <li>
             <a href="#" className="navbar__menu--links">
-              Home
+              How to Buy
             </a>
           </li>
           <li>
             <a href="#" className="navbar__menu--links">
-              Stays
+              Sell your Car
             </a>
           </li>
           <li>
             <a href="#" className="navbar__menu--links">
-              Flights
+              Find a Car
             </a>
           </li>
           <li>
             <a href="#" className="navbar__menu--links">
-              Car rentals
+              Services & Information
             </a>
           </li>
         </ul>
