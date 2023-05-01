@@ -46,3 +46,8 @@
     font-size: 15px;
     cursor: pointer;
 }
+@media screen and (max-width: 620px) {
+    .register__wrapper{
+         width: 75%;
+    }
+}
