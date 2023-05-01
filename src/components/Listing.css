@@ -1,12 +1,12 @@
-.listing {
+.listing__listingContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 30px;
 }
-#listingContainer__buttonContainer{
+#listing__listingContainer__buttonContainer{
   margin-bottom: 20px;
 }
-#listingContainer__buttonContainer--button{
+#listing__listingContainer__buttonContainer--button{
   padding: 12px 25px;
   background-color: rgb(252, 252, 252);
   border: 1px solid gray;
@@ -16,25 +16,25 @@
   font-weight: 600;
   font-size: small;
 }
-#listingContainer__buttonContainer--button:hover {
+#listing__listingContainer__buttonContainer--button:hover {
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
   background-color: rgb(232, 240, 240);
   transition: all 0.3s ease;
 }
-@media screen and (max-width: 1000px) {
-  .listingContainer {
+@media screen and (max-width: 1200px) {
+  .listing__listingContainer {
     grid-template-columns: 1fr 1fr 1fr;
     padding: 20px;
   }
 }
-@media screen and (max-width: 800px) {
-  .listingContainer {
+@media screen and (max-width: 930px) {
+  .listing__listingContainer {
     grid-template-columns: 1fr 1fr;
     padding: 10px;
   }
 }
-@media screen and (max-width: 460px) {
-  .listingContainer {
+@media screen and (max-width: 630px) {
+  .listing__listingContainer {
     grid-template-columns: 1fr;
     padding: 10px;
   }
