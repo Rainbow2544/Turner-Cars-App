@@ -16,12 +16,25 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    
     <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
     <df-messenger
       intent="WELCOME"
       chat-title="Turners"
+      chat-icon='https://img.zcool.cn/community/01067b59abfd15a8012028a995f07e.jpg@1280w_1l_2o_100sh.png'
       agent-id="67fcf3f8-7d69-4338-b013-c04cf9c47de0"
       language-code="en"
     ></df-messenger>
+    <style>
+      df-messenger {
+       --df-messenger-bot-message: #9458a7;
+       --df-messenger-button-titlebar-color: #498bc5;
+       --df-messenger-chat-background-color: #fafafa;
+       --df-messenger-font-color: white;
+       --df-messenger-send-icon: #878fac;
+       --df-messenger-user-message: #479b3d;
+      }
+    </style>
   </body>
 </html>
