@@ -1,0 +1,48 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.5),
+        rgba(255, 255, 255, 0.279)
+    ),
+    url("https://th.bing.com/th/id/R.0d462ece64cfb779b35cdc12bdc682a7?rik=hFb5ttPmSJGhbg&riu=http%3a%2f%2fwhimsicalhomeandgarden.com%2fwp-content%2fuploads%2f2016%2f11%2f33_Photo_20Cred_20Sierra_20Sothebys_20International_20Realty09.0_WHG.jpg&ehk=edxCVFxuJeH9rB7W56It35k%2f0VuPYMbc1BtIzk3Dnqo%3d&risl=&pid=ImgRaw&r=0")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.register__wrapper{
+    width: 40%;
+    padding: 20px;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    opacity: 85%;
+}
+#register__wrapper--title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+#register__wrapper__form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.register__wrapper__form--input{
+    margin: 20px 10px 0px 10px;
+    min-width: 50%;
+    padding: 10px;
+}
+.register__wrapper__form--span{
+    margin: 20px 0px;
+    font-size: 12px;
+}
+#register__wrapper__form--button{
+    padding: 10px 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
