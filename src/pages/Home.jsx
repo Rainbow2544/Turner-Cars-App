@@ -21,6 +21,7 @@ const Home = () => {
           </div>
         </div>
         <Listing/>
+        
     </div>
   )
 }
