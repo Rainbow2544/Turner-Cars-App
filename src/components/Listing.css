@@ -3,10 +3,13 @@
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 30px;
 }
-#listing__listingContainer__buttonContainer{
+#listing__buttonContainer{
   margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  
 }
-#listing__listingContainer__buttonContainer--button{
+#listing__buttonContainer--button{
   padding: 12px 25px;
   background-color: rgb(252, 252, 252);
   border: 1px solid gray;
@@ -30,12 +33,12 @@
 @media screen and (max-width: 930px) {
   .listing__listingContainer {
     grid-template-columns: 1fr 1fr;
-    padding: 10px;
+    padding: 30px;
   }
 }
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 550px) {
   .listing__listingContainer {
     grid-template-columns: 1fr;
-    padding: 10px;
+    padding: 20px;
   }
 }

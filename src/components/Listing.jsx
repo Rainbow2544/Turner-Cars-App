@@ -14,7 +14,7 @@ const Listing = () => {
 
   
   return (
-    <div className=" listing">
+    <div className="listing">
       <div className="listing__listingContainer">
         {listingArr.slice(0,8).map((l) => {
           return <ListingItem listing={l} />;
@@ -24,14 +24,14 @@ const Listing = () => {
           })}
       </div>
 
-      <div id="listing__listingContainer__buttonContainer">
+      <div id="listing__buttonContainer">
         <button 
-          id="listing__listingContainer__buttonContainer--button"
+          id="listing__buttonContainer--button"
           onClick={() => {
             setCount(count + 4);
           }}
         >
-          Load more 
+          Load more
         </button>
     </div>
     </div>

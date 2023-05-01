@@ -1,0 +1,49 @@
+.login{
+    width: 100xw;
+    height: 100vh;
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.259),
+        rgba(255, 255, 255, 0.5)
+    ),
+    url("https://th.bing.com/th/id/R.bc4a54bf646739da5f17e2db649faac9?rik=4bgEinfyKa0mRw&riu=http%3a%2f%2feskipaper.com%2fimages%2fcar-wallpaper-9.jpg&ehk=7tzBTdm6hQGK4xioNGs0kjYDycu6142O4kQr%2faYHK%2fk%3d&risl=&pid=ImgRaw&r=0")
+        center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login__wrapper{
+    width: 40%;
+    padding: 20px;
+    background: #fdfcfc;
+}
+#login__wrapper--title{
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+}
+#login__wrapper--form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.login__wrapper--input{
+    margin: 20px 10px 0px 10px;
+    padding: 10px;
+    min-width: 50%;
+}
+.login__wrapper--button{
+    display: flex;
+    padding: 10px 30px;
+    margin: 20px 0px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login__wrapper--link{
+    margin: 5px 0px;
+    font-size: 12px;
+    text-decoration: underline;
+    cursor: pointer;
+}
