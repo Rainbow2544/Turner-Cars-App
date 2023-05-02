@@ -75,14 +75,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+My mission one project used reactJS,DialogFlow, CSS, and JavaScript to build a web home page with chatbot. Users can use the chatbot to ask any questions about the Turners auction. In addition, pressing the Register and SignIn button in the navbar will be navagate to correspond web page. Below the search bar section is a listing section that displays cars in four columns. This website also provide the responsive.
 <div align="center">
-  
-   <img src="src/images/screenshot.png" alt="screenshot" width="600" height="400">
-
+  <img src="images/screenshot.jpeg" alt="screenshot" width="600" height="800">
   <p align="center">
  </div>
-
-My mission zero project used reactJS, CSS, and JavaScript to build a web home page. It features a navbar with links, registration and login buttons, and a search bar section. Below the search bar section is a listing section that displays items in three columns, each of which scales up when the mouse hovers over them with a box-shadow effect.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
