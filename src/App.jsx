@@ -5,6 +5,8 @@ import Footer from "./components/Footer";
 import {BrowserRouter as Router,Routes,Route,Navigate, Outlet} from "react-router-dom";
 import LogIn from "./pages/LogIn";
 import Register from "./pages/Register";
+import UploadImgContainer from "./components/UploadImgContainer";
+import SearchImgResults from "./pages/SearchImgResults";
 
 const App = () => {
   return (
@@ -14,6 +16,7 @@ const App = () => {
         <Route exact path="/" element={<Home />} />
         <Route path="/login" element={<LogIn />} />
         <Route path="/register" element={<Register />} />
+        <Route path="/search-imgResults" element={<SearchImgResults/>} />
       </Routes>
       
       <Footer />

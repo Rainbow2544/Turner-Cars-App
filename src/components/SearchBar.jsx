@@ -2,12 +2,15 @@ import React, { useState } from "react";
 import "./SearchBar.css";
 import { AiOutlineSearch } from "react-icons/ai";
 import { FcAddImage } from "react-icons/fc";
-import UploadImgContainer from "./UploadImgContainer";
-
+//import UploadImgContainer from "./UploadImgContainer";
+import { useNavigate } from "react-router-dom";
 
 const SearchBar = () => {
   const [imgSearchIsOpen, setImgSearchIsOpen] = useState(false);
   const [hovered, setHovered] = useState(false);
+  const navigate = useNavigate();
+
+  //{imgSearchIsOpen && <UploadImgContainer />}
   return (
     <form id="searchBarContainer">
       <input
@@ -17,7 +20,7 @@ const SearchBar = () => {
       />
       <FcAddImage 
       id="searchBarContainer--imgSearchLogo"
-      onClick={() => {setImgSearchIsOpen(!imgSearchIsOpen)}}
+      onClick={() => {navigate("/search-imgResults");}}
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       />
@@ -30,7 +33,8 @@ const SearchBar = () => {
       <button className="searchBarContainer--button">
         <AiOutlineSearch id="searchBarContainer--button--searchLogo" />
       </button>
-      {imgSearchIsOpen && <UploadImgContainer />}
+      
+      
     </form>
   );
 };
