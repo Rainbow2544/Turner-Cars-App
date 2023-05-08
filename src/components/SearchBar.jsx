@@ -4,11 +4,28 @@ import { AiOutlineSearch } from "react-icons/ai";
 import { FcAddImage } from "react-icons/fc";
 //import UploadImgContainer from "./UploadImgContainer";
 import { useNavigate } from "react-router-dom";
+import { CustomSearchClient } from "@azure/cognitiveservices-customsearch";
+
+//const subscriptionKey = process.env.REACT_APP_SUBKEY;
+//const customConfigId = process.env.REACT_APP_CONFID;
+
+// Create a new client instance
+//const client = new CustomSearchClient(subscriptionKey, customConfigId);
 
 const SearchBar = () => {
   const [imgSearchIsOpen, setImgSearchIsOpen] = useState(false);
   const [hovered, setHovered] = useState(false);
+  const [query, setQuery] = useState("");
   const navigate = useNavigate();
+
+  const handleChange = (e) => {
+    setQuery(e.target.value);
+  };
+
+  const handleClick = async () => {
+    //navigate(`/search-Results/${query}`);
+    navigate(`/custom-search-Results`);
+  };
 
   //{imgSearchIsOpen && <UploadImgContainer />}
   return (
@@ -16,6 +33,8 @@ const SearchBar = () => {
       <input
         id="searchBarContainer--input"
         type="text"
+        value={query}
+        onChange={handleChange}
         placeholder="Search your favorite cars here"
       />
       <FcAddImage 
@@ -30,7 +49,10 @@ const SearchBar = () => {
             </div>
           )}
 
-      <button className="searchBarContainer--button">
+      <button 
+        className="searchBarContainer--button"
+        onClick={handleClick}
+      >
         <AiOutlineSearch id="searchBarContainer--button--searchLogo" />
       </button>
       

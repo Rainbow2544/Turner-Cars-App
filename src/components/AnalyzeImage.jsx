@@ -1,8 +1,9 @@
 export const analyzeImage = async (imageData) => {
-    const endpoint = "https://m1-find-similar-cars-img.cognitiveservices.azure.com/vision/v3.1/analyze";
-    console.log({
-        "url": `${imageData}`
-      });
+    const AzureImgKey = process.env.REACT_APP_AZURE_IMG_KEY;
+
+    const endpoint ="https://m1-find-similar-cars-img.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=caption,read&model-version=latest&language=en&api-version=2023-02-01-preview"
+    
+    console.log("why",process.env.REACT_APP_AZURE_IMG_KEY)
     try {
       const response = await fetch(endpoint, {
         method: "POST",
@@ -11,7 +12,7 @@ export const analyzeImage = async (imageData) => {
           }),
         headers: {
           "Content-Type": "application/json",
-          "Ocp-Apim-Subscription-Key": "af408fb0e24a4b4e92a2d59292966ba1",
+          "Ocp-Apim-Subscription-Key": `${AzureImgKey}`,
         },
       });
   
