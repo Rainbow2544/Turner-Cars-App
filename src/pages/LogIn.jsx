@@ -26,11 +26,11 @@ const LogIn = () => {
             onChange={(e) => setPassword(e.target.value)}
           />
           <button onClick={handleClick} className="login__wrapper__form--button">
-            LOGIN
+            Sign In
           </button>
 
-          <a className="login__wrapper__form--link">FORGOT PASSWORD?</a>
-          <a className="login__wrapper__form--link">CREATE A NEW ACCOUNT</a>
+          <a  className="login__wrapper__form--link">FORGOT PASSWORD?</a>
+          <a href="/register" className="login__wrapper__form--link">CREATE A NEW ACCOUNT</a>
         </form>
       </div>
     </div>

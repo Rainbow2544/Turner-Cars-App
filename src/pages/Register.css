@@ -42,9 +42,18 @@
     font-size: 12px;
 }
 #register__wrapper__form--button{
-    padding: 10px 30px;
+    padding: 10px 35px;
     font-size: 15px;
     cursor: pointer;
+    border-color: rgb(0,118,190);
+    color:rgb(0,118,190);
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+#register__wrapper__form--button:hover{
+    border-color: rgb(2, 79, 128);
+    color: rgb(2, 79, 128);
 }
 @media screen and (max-width: 620px) {
     .register__wrapper{

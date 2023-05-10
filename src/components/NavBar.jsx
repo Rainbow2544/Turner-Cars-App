@@ -31,8 +31,8 @@ const NavBar = () => {
       <div className="navbar__menu">
         <ul>
           <li>
-            <a href="#" className="navbar__menu--links">
-              How to Buy
+            <a href="/custom-search-Results" className="navbar__menu--links">
+              Explore about Turners
             </a>
           </li>
           <li>
@@ -45,24 +45,20 @@ const NavBar = () => {
               Find a Car
             </a>
           </li>
-          <li>
-            <a href="#" className="navbar__menu--links">
-              Services & Information
-            </a>
-          </li>
+          
         </ul>
         <div className="navbar__btnContainer">
           <button 
-              className="navbar__btnContainer--btn"
+              className="navbar__btnContainer--btnRegister"
               onClick={() => {navigate("/register");}}
             >
               Register
             </button>
             <button 
-              className="navbar__btnContainer--btn"
+              className="navbar__btnContainer--btnSignIn"
               onClick={() => {navigate("/login");}}
             >
-              Sign in
+              Sign In
             </button>
         </div>
       </div>
@@ -78,7 +74,7 @@ const NavBar = () => {
           <ul>
             <li>
               <a href="#" className="navbar__menu--links">
-                How to Buy
+              Explore about Turners
               </a>
             </li>
             <li>
@@ -91,24 +87,20 @@ const NavBar = () => {
                 Find a Car
               </a>
             </li>
-            <li>
-              <a href="#" className="navbar__menu--links">
-                Services & Information
-              </a>
-            </li>
+            
           </ul>
           <div className="dropdownContainer__btnContainer">
             <button 
-              className="navbar__btnContainer--btn"
+              className="navbar__btnContainer--btnRegister"
               onClick={() => {navigate("/register");}}
             >
               Register
             </button>
             <button 
-              className="navbar__btnContainer--btn"
+              className="navbar__btnContainer--btnSignIn"
               onClick={() => {navigate("/login");}}
             >
-              Sign in
+              Sign In
             </button>
           </div>
         </div>
