@@ -1,26 +1,42 @@
 export const analyzeImage = async (imageData) => {
     const AzureImgKey = process.env.REACT_APP_AZURE_IMG_KEY;
 
-    const endpoint ="https://m1-find-similar-cars-img.cognitiveservices.azure.com/computervision/imageanalysis:analyze?features=caption,read&model-version=latest&language=en&api-version=2023-02-01-preview"
+    const endpoint ="https://m1trainingcarsmodel-prediction.cognitiveservices.azure.com/customvision/v3.0/Prediction/3ea712d5-76e8-4a03-adf4-0b2fea814f8c/classify/iterations/Iteration9/url"
     
-    console.log("why",process.env.REACT_APP_AZURE_IMG_KEY)
+    
+    function getHighestProbabilityTagName(data) {
+      let highestProbability = 0;
+      let highestProbabilityTagName = '';
+    
+      data.predictions.forEach((prediction) => {
+        if (prediction.probability > highestProbability) {
+          highestProbability = prediction.probability;
+          highestProbabilityTagName = prediction.tagName;
+        }
+      });
+    
+      return highestProbabilityTagName;
+    }
+
+
     try {
       const response = await fetch(endpoint, {
         method: "POST",
         body: JSON.stringify({
-            "url": `${imageData}`
+            "Url": `${imageData}`
           }),
         headers: {
           "Content-Type": "application/json",
-          "Ocp-Apim-Subscription-Key": `${AzureImgKey}`,
+          "Prediction-Key": `${AzureImgKey}`,
         },
       });
   
       if (response.ok) {
         const data = await response.json();
         
-        console.log(data);
-        return data;
+        const highestProbabilityTagName = getHighestProbabilityTagName(data);
+        console.log(highestProbabilityTagName)
+        return highestProbabilityTagName;
       } else {
         console.log("Error:", response.status);
         return response;

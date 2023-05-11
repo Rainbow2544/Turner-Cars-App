@@ -5,140 +5,165 @@
             "img": "https://content.tgstatic.co.nz/photos/good/2020-suzuki-baleno-23437007_16513252_gallery.jpg",
             "title": "2020 Suzuki Baleno GLX",
             "brand": "Suzuki",
-            "type":"Baleno GLX",
+            "model":"Baleno GLX",
             "location": "Wellington",
             "price":"17,220",
-            "Odometer":"66,820"
+            "Odometer":"66,820",
+            "type":"hatchback"
         },
         {
             "id" : 2,
             "img": "https://content.tgstatic.co.nz/photos/good/2014-toyota-aqua-23169551_16327201_gallery.jpg",
             "title": "2014 Toyota Aqua",
             "brand": "Toyota",
-            "type":"Aqua",
+            "model":"Aqua",
             "location": "Penrose",
             "price":"14,680",
-            "Odometer":"104,365"
+            "Odometer":"104,365",
+            "type":"hatchback"
         },
         {
             "id" : 3,
             "img": "https://content.tgstatic.co.nz/photos/good/2011-toyota-camry-23299843_16396965_gallery.jpg",
             "title": "2011 Toyota Camry Hybrid",
             "brand": "Toyota",
-            "type":"Camry",
+            "model":"Camry",
             "location": "Manukau",
             "price":"17,730",
-            "Odometer":"86,322"
+            "Odometer":"86,322",
+            "type":"sedan"
         },
         {
             "id" : 4,
             "img": "https://content.tgstatic.co.nz/photos/good/2017-suzuki-ignis-23317343_16434999_gallery.jpg",
             "title": "2017 Suzuki Ignis Hybrid",
             "brand": "Suzuki",
-            "type":"Ignis",
+            "model":"Ignis",
             "location": "Botany",
             "price":"16,730",
-            "Odometer":"83,227"
+            "Odometer":"83,227",
+            "type":"hatchback"
         },
         {
             "id" : 5,
             "img": "https://content.tgstatic.co.nz/photos/good/2013-toyota-aqua-23169477_16327120_gallery.jpg",
             "title": "2013 Toyota Aqua Hybrid",
             "brand": "Toyota",
-            "type":"Aqua",
+            "model":"Aqua",
             "location": "Botany",
             "price":"13,680",
-            "Odometer":"118,505"
+            "Odometer":"118,505",
+            "type":"hatchback"
         },
         {
             "id" : 6,
             "img": "https://content.tgstatic.co.nz/photos/good/2013-renault-kangoo-23363464_16440999_gallery.jpg",
             "title": "2013 Renault Kangoo 1.5 DCI",
             "brand": "Renault",
-            "type":"Kangoo",
+            "model":"Kangoo",
             "location": "Tauranga",
             "price":"11,420",
-            "Odometer":"158,671"
+            "Odometer":"158,671",
+            "type":"hatchback"
         },
         {
             "id" : 7,
             "img": "https://content.tgstatic.co.nz/photos/good/2010-toyota-alphard-23425046_16526408_gallery.jpg",
             "title": "2010 Toyota Alphard",
             "brand": "Toyota",
-            "type":"Alphard",
+            "model":"Alphard",
             "location": "Tauranga",
             "price":"18,610",
-            "Odometer":"173,044"
+            "Odometer":"173,044",
+            "type":"van"
         },
         {
             "id" : 8,
             "img": "https://content.tgstatic.co.nz/photos/good/2013-toyota-aqua-23169477_16327120_gallery.jpg",
             "title": "2012 Toyota Aqua Hybrid",
             "brand": "Toyota",
-            "type":"Aqua",
+            "model":"Aqua",
             "location": "Botany",
             "price":"23,680",
-            "Odometer":"108,505"
+            "Odometer":"108,505",
+            "type":"hatchback"
         },
         {
             "id" : 9,
             "img": "https://content.tgstatic.co.nz/photos/good/2013-nissan-navara-23304431_16308854_gallery.jpg",
             "title": "2013 Nissan Navara D/C 2.5D ST",
             "brand": "Nissan",
-            "type":"Navara",
+            "model":"Navara",
             "location": "Tauranga",
             "price":"12,825",
-            "Odometer":"218,785"
+            "Odometer":"218,785",
+            "type":"utility"
         },
         {
             "id" : 10,
             "img": "https://content.tgstatic.co.nz/photos/good/2014-hyundai-iload-23349928_16430984_gallery.jpg",
             "title": "2014 Hyundai Iload Crdi",
             "brand": "Hyundai",
-            "type":"Iload",
+            "model":"Iload",
             "location": "Avalon Drive",
             "price":"14,825",
-            "Odometer":"118,785"
+            "Odometer":"118,785",
+            "type":"van"
         },
         {
             "id" : 11,
             "img": "https://content.tgstatic.co.nz/photos/good/2017-toyota-vitz-23317434_16228758_gallery.jpg",
             "title": "2017 Toyota Vitz Hybrid",
             "brand": "Toyota",
-            "type":"Vitz",
+            "model":"Vitz",
             "location": "Otahuhu",
             "price":"15,825",
-            "Odometer":"81,785"
+            "Odometer":"81,785",
+            "type":"hatchback"
         },
         {
             "id" : 12,
             "img": "https://content.tgstatic.co.nz/photos/good/2014-hyundai-iload-23349928_16430984_gallery.jpg",
             "title": "2020 Great Wall Steed",
             "brand": "Great Wall",
-            "type":"Steed",
+            "model":"Steed",
             "location": "Whangarei",
             "price":"17,825",
-            "Odometer":"48,785"
+            "Odometer":"48,785",
+            "type":"van"
         },
         {
             "id" : 13,
             "img": "https://content.tgstatic.co.nz/photos/good/2007-toyota-crown-23370061_16313252_gallery.jpg",
             "title": "2007 Toyota Crown Athlete",
             "brand": "Toyota",
-            "type":"Crown",
+            "model":"Crown",
             "location": "Te Rapa Road",
             "price":"14,220",
-            "Odometer":"99,931"
+            "Odometer":"99,931",
+            "type":"sedan"
         },
         {
             "id" : 14,
             "img": "https://content.tgstatic.co.nz/photos/good/2013-subaru-impreza-23210240_16306841_gallery.jpg",
             "title": "2013 Subaru Impreza",
             "brand": "Subaru",
-            "type":"Impreza",
+            "model":"Impreza",
             "location": "Christchurch City",
             "price":"11,500",
-            "Odometer":"99,088"
+            "Odometer":"99,088",
+            "type":"sedan"
+        },
+        {
+            "id" : 15,
+            "img": "https://content.tgstatic.co.nz/photos/good/2015-ford-kuga-23437030_16471093_gallery.jpg",
+            "title": "2015 Ford Kuga Titanium Diesel",
+            "brand": "Ford",
+            "model":"Titanium",
+            "location": "Christchurch City",
+            "price":"18,500",
+            "Odometer":"59,088",
+            "type":"suv"
         }
     ]
     

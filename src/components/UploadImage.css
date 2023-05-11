@@ -1,26 +1,34 @@
 .UploadImageContainer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
 }
 
-.UploadImageContainer__form{
-    margin-top: 15px;
+.UploadImageContainer__form {
+  margin-top: 15px;
 }
 .UploadImageContainer__form--button {
-    margin-top: 15px;
-    padding: 12px 15px;
-    margin-right: 15px;
-    background-color: rgb(69, 141, 213);
-    border-radius: 5px;
-    color: rgb(229, 231, 234);
-    cursor: pointer;
-    font-weight: 600;
-    font-size: small;
-  }
-  .UploadImageContainer__form--button:hover {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
-    background-color: rgb(60, 121, 183);
-    transition: all 0.3s ease;
-  }
+  margin-top: 15px;
+  padding: 12px 15px;
+  margin-left: 15px;
+  background-color: rgb(69, 141, 213);
+  border-radius: 5px;
+  color: rgb(229, 231, 234);
+  cursor: pointer;
+  font-weight: 600;
+  font-size: small;
+}
+
+.UploadImageContainer__form--button:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+  background-color: rgb(60, 121, 183);
+  transition: all 0.3s ease;
+}
+
+.UploadImageContainer__listing {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 30px;
+}
