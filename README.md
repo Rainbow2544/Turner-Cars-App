@@ -26,7 +26,7 @@
     <img src="https://www.turners.co.nz/contentassets/3e15c8546917474ca0a150b18e9fd64e/turnerscars_logo_1line_horz_true-rgb-desktop.png" alt="Logo" width="280" height="80">
   </a>
 
-<h3 align="center">Mission_one</h3>
+<h3 align="center">Mission_two</h3>
 
   <p align="center">
     Project description: A web home page that imitates a Turners Car website with chatbot.
