@@ -29,7 +29,7 @@
 <h3 align="center">Mission_two</h3>
 
   <p align="center">
-    Project description: A web home page that imitates a Turners Car website with chatbot.
+    Project description: A web home page that imitates a Turners Car website with chatbot, Bing custom search and Bind custom vision(user can input the car image URL to search the similar car in this APP).
     <br />
     <a href="https://github.com/Rainbow2544/mission_one.git"><strong>Explore the docs »</strong></a>
     <br />
