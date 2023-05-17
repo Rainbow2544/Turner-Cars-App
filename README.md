@@ -11,7 +11,7 @@
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
 [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]](https://github.com/Rainbow2544/mission_one/forks)
+[![Forks][forks-shield]](https://github.com/Rainbow2544/Turner-Cars-App/forks)
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
@@ -26,19 +26,19 @@
     <img src="https://www.turners.co.nz/contentassets/3e15c8546917474ca0a150b18e9fd64e/turnerscars_logo_1line_horz_true-rgb-desktop.png" alt="Logo" width="280" height="80">
   </a>
 
-<h3 align="center">Mission_two</h3>
+
 
   <p align="center">
     Project description: A web home page that imitates a Turners Car website with chatbot, Bing custom search and Bind custom vision(user can input the car image URL to search the similar car in this APP).
     <br />
-    <a href="https://github.com/Rainbow2544/mission_one.git"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/Rainbow2544/Turner-Cars-App.git"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="">View Demo</a>
     ·
-    <a href="https://github.com/Rainbow2544/mission_one.git/issues">Report Bug</a>
+    <a href="https://github.com/Rainbow2544/Turner-Cars-App.git/issues">Report Bug</a>
     ·
-    <a href="https://github.com/Rainbow2544/mission_one.git/issues">Request Feature</a>
+    <a href="https://github.com/Rainbow2544/Turner-Cars-App.git/issues">Request Feature</a>
   </p>
 </div>
 
@@ -109,7 +109,7 @@ My mission one project used reactJS,DialogFlow, CSS, and JavaScript to build a w
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Rainbow2544/mission_one.git
+   git clone https://github.com/Rainbow2544/Turner-Cars-App.git
    ```
 2. Install NPM packages
    ```sh
@@ -168,7 +168,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Rainbow Ou - [@LinkedIn_handle](https://www.linkedin.com/in/rainbow-ou-596a43204/) - rainbow@missionreadyhq.com
 
-Project Link: [Mission one(Turners Cars)](https://github.com/Rainbow2544/mission_one.git)
+Project Link: [Turners Cars clone](https://github.com/Rainbow2544/Turner-Cars-App.git)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,16 +187,16 @@ Project Link: [Mission one(Turners Cars)](https://github.com/Rainbow2544/mission
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/Rainbow2544/mission_one.svg?style=for-the-badge
-[contributors-url]: https://github.com/Rainbow2544/mission_one/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/Rainbow2544/mission_one.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Rainbow2544/Turner-Cars-App.svg?style=for-the-badge
+[contributors-url]: https://github.com/Rainbow2544/Turner-Cars-App/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/Rainbow2544/Turner-Cars-App.svg?style=for-the-badge
 [forks-url]: https://github.com/Rainbow2544/mission_one/network/members
-[stars-shield]: https://img.shields.io/github/stars/Rainbow2544/mission_one.svg?style=for-the-badge
-[stars-url]: https://github.com/Rainbow2544/mission_one/stargazers
-[issues-shield]: https://img.shields.io/github/issues/Rainbow2544/mission_one.svg?style=for-the-badge
-[issues-url]: https://github.com/Rainbow2544/mission_one/issues
-[license-shield]: https://img.shields.io/github/license/Rainbow2544/mission_one.svg?style=for-the-badge
-[license-url]: https://github.com/Rainbow2544/mission_one/blob/master/LICENSE.txt
+[stars-shield]: https://img.shields.io/github/stars/Rainbow2544/Turner-Cars-App.svg?style=for-the-badge
+[stars-url]: https://github.com/Rainbow2544/Turner-Cars-App/stargazers
+[issues-shield]: https://img.shields.io/github/issues/Rainbow2544/Turner-Cars-App.svg?style=for-the-badge
+[issues-url]: https://github.com/Rainbow2544/Turner-Cars-App/issues
+[license-shield]: https://img.shields.io/github/license/Rainbow2544/Turner-Cars-App.svg?style=for-the-badge
+[license-url]: https://github.com/Rainbow2544/Turner-Cars-App/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rainbow-ou-596a43204/
 [product-screenshot]: images/screenshot.jpeg
