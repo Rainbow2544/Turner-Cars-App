@@ -75,7 +75,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-My mission one project used reactJS,DialogFlow, CSS, and JavaScript to build a web home page with chatbot. Users can use the chatbot to ask any questions about the Turners auction. In addition, pressing the Register and SignIn button in the navbar will be navagate to correspond web page. Below the search bar section is a listing section that displays cars in four columns. This website also provide the responsive.
+My project used reactJS,DialogFlow, Bing Custom Search, Bing Custom Vision, CSS, and JavaScript to build a web home page with chatbot, custom search and car image recognize to search similar cars in database. Users can use the chatbot to ask any questions about the Turners auction. In addition, pressing the Register and SignIn button in the navbar will be navagate to correspond web page. Below the search bar section is a listing section that displays cars in four columns. This website also provide the responsive.
 <div align="center">
   <img src="images/screenshot.jpeg" alt="screenshot1" width="600" height="800">
   <img src="images/Screenshot2.png" alt="screenshot2" width="250" height="400">
